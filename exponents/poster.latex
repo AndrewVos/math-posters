@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\usepackage{mathtools}
+\usepackage{xcolor}
+\usepackage{pdflscape}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+\definecolor{background}{HTML}{282a36}
+\definecolor{foreground}{HTML}{f8f8f2}
+\definecolor{a}{HTML}{caa9fa}
+\definecolor{b}{HTML}{8be9fd}
+\definecolor{m}{HTML}{50fa7b}
+\definecolor{n}{HTML}{ff79c6}
+\pagecolor{background}
+\color{foreground}
+
+\pagenumbering{gobble}
+
+% \setmainfont{Unica One}
+% \setsansfont{Unica One}
+% \setmonofont{Unica One}
+\begin{document}
+
+\fontsize{46}{46}
+\selectfont
+
+\begin{landscape}
+\begin{center}
+
+EXPONENTS
+
+\begin{align*}
+  {\color{a}a}^{\color{m}m} \cdot {\color{a}a}^{\color{n}n} &= {\color{a}a}^{({\color{m}m}+{\color{n}n})}\\
+  {({\color{a}a} \cdot {\color{b}b})}^{\color{n}n} &= {\color{a}a}^{\color{n}n} \cdot {\color{b}b}^{\color{n}n}\\
+  {({\color{a}a}^{\color{m}m})}^{\color{n}n} &= {\color{a}a}^{({\color{m}m} \cdot {\color{n}n})}\\
+  {\color{a}a}^{\color{m}m} / {\color{a}a}^{\color{n}n} &= {\color{a}a}^{({\color{m}m} - {\color{n}n})}\\
+  {({\color{a}a} / {\color{b}b})}^{\color{m}m} &= {\color{a}a}^{\color{m}m} / {\color{b}b}^{\color{m}m}
+\end{align*}
+
+\end{center}
+\end{landscape}
+\end{document}
