@@ -7,14 +7,14 @@
 \renewcommand\familydefault{\sfdefault} 
 \usepackage[T1]{fontenc}
 
-\definecolor{background}{HTML}{282a36}
-\definecolor{foreground}{HTML}{f8f8f2}
+% \definecolor{background}{HTML}{282a36}
+% \definecolor{foreground}{HTML}{f8f8f2}
 \definecolor{a}{HTML}{caa9fa}
 \definecolor{b}{HTML}{8be9fd}
 \definecolor{m}{HTML}{50fa7b}
 \definecolor{n}{HTML}{ff79c6}
-\pagecolor{background}
-\color{foreground}
+% \pagecolor{background}
+% \color{foreground}
 
 \pagenumbering{gobble}
 
@@ -23,11 +23,10 @@
 % \setmonofont{Unica One}
 \begin{document}
 
-\fontsize{46}{46}
-\selectfont
-
 \begin{landscape}
 \begin{center}
+
+\fontsize{46}{46} \selectfont
 
 EXPONENTS
 
@@ -41,4 +40,43 @@ EXPONENTS
 
 \end{center}
 \end{landscape}
+
+\begin{landscape}
+\begin{center}
+
+\fontsize{46}{46} \selectfont
+FACTORISATION
+
+\begin{align*}
+  x^2 - y^2 &= (x+y)(x-y)\\
+  x^3 - y^3 &= (x-y)(x^2 + xy + y^2)\\
+  x^3 + y^3 &= (x+y)(x^2 - xy + y^2)\\
+  x^2 + 2xy + y^2 &= (x+y)^2\\
+  x^3 + 3x^2y + 3xy^2 + y^3 &= (x+y)^3
+\end{align*}
+
+\end{center}
+\end{landscape}
+
+
+% Question 1: Is there a common factor?
+% If no, move onto Question 2. If yes, factor out the GCF and continue to Question 2.
+% Factoring out the GCF is a very important step in the factoring process, as it makes the numbers smaller. This, in turn, makes it easier to recognize patterns!
+
+% Question 2: Is there a difference of squares (i.e. x^2-16x 2 −16 or 25x^2-925x 2 −9)?
+% If a difference of squares pattern occurs, factor using the pattern a^2-b^2=(a+b)(a-b)a 2 −b 2 =(a+b)(a−b). If not, move on to Question 3.
+
+% Question 3: Is there a perfect square trinomial (i.e. x^2-10x+25x 2 −10x+25 or 4x^2+12x+94x 2 +12x+9)?
+% If a perfect square trinomial is present, factor using the pattern a^2\pm2ab+b^2=(a\pm b)^2a 2 ±2ab+b 2 =(a±b) 2 . If not, move on to Question 4.
+
+% Question 4:
+% a.) Is there an expression of the form x^2+bx+cx 2 +bx+c?  If no, move on to Question 5. If yes, move on to b).
+% b.) Are there factors of cc that sum to bb?  If yes, then factor using the sum-product pattern. Otherwise, the quadratic expression cannot be factored further.
+
+% Question 5: Are there factors of acac that add up to bb?
+% If you've gotten this far, the quadratic expression must be of the form ax^2+bx+cax 2 +bx+c where a\neq 1a≠1. If there are factors of acac that add up to bb, factor using the grouping method. If not, the quadratic expression cannot be factored further.
+
+
+
+
 \end{document}
